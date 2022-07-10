@@ -12,7 +12,7 @@ detection = False
 detection_stopped_time = None
 timer_started = False
 SECONDS_TO_RECORD_AFTER_DETECTION = 10
-URL = "https://maker.ifttt.com/trigger/detection/with/key/cGyB8-dfd9ypbFlznJftnX"
+URL = "(URL)"
 
 frame_size = (int(cap.get(3)), int(cap.get(4)))
 fourcc = cv2.VideoWriter_fourcc(*"mp4v")
